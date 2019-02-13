@@ -35,7 +35,7 @@
 }
 
 - (void)btnClick:(UIButton *)sender {
-    [LYAlertControllerShower ly_showAlertViewControllerWithTitle:@"s" message:@"a" cancelButtonTitle:nil otherButtonTitles:@[@"1", @"2", @"3"] presentingViewController:self clickHandle:^(NSInteger buttonIndex, NSString * _Nonnull buttonTitle) {
+    [LYAlertControllerShower ly_showAlertViewControllerWithTitle:nil message:nil cancelButtonTitle:nil otherButtonTitles:@[@"9"] presentingViewController:self clickHandle:^(NSInteger buttonIndex, NSString * _Nonnull buttonTitle) {
         NSLog(@"%@", buttonTitle);
     }];
 }
