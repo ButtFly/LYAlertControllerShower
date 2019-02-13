@@ -1,0 +1,27 @@
+PODS:
+  - Expecta (1.0.6)
+  - LYAlertControllerShower (0.1.0)
+  - Specta (1.0.7)
+
+DEPENDENCIES:
+  - Expecta
+  - LYAlertControllerShower (from `../`)
+  - Specta
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Expecta
+    - Specta
+
+EXTERNAL SOURCES:
+  LYAlertControllerShower:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
+  LYAlertControllerShower: 402dde4167ad113142e91aa214154d265e5ca2b3
+  Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
+
+PODFILE CHECKSUM: bc1d594ac8182c900b0ebfc0b339fbe2c0e53076
+
+COCOAPODS: 1.6.0

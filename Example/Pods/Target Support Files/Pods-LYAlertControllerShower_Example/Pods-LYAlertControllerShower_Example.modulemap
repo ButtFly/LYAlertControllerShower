@@ -1,0 +1,6 @@
+framework module Pods_LYAlertControllerShower_Example {
+  umbrella header "Pods-LYAlertControllerShower_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
