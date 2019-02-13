@@ -23,7 +23,7 @@ NS_ASSUME_NONNULL_BEGIN
  @param presentingViewController <#presentingViewController description#>
  @param clickHandle 取消是 0，其他依次加 1
  */
-+ (void)ly_showAlertViewControllerWithTitle:(nullable NSString *)title message:(nullable NSString *)message cancelButtonTitle:(nullable NSString *)cancelButtonTitle otherButtonTitles:(nullable NSArray<NSString *> *)otherButtonTitles presentingViewController:(UIViewController *)presentingViewController clickHandle:(void(^)(NSInteger buttonIndex, NSString *buttonTitle))clickHandle;
++ (void)ly_showAlertViewControllerWithTitle:(nullable NSString *)title message:(nullable NSString *)message cancelButtonTitle:(nullable NSString *)cancelButtonTitle otherButtonTitles:(nullable NSArray<NSString *> *)otherButtonTitles presentingViewController:(UIViewController *)presentingViewController clickHandle:(nullable void(^)(NSInteger buttonIndex, NSString *buttonTitle))clickHandle;
 
 @end
 
